@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/oguz/projects/MyCryptoMarket/MyCryptoMarket.csproj": {}
+  },
+  "projects": {
+    "/home/oguz/projects/MyCryptoMarket/MyCryptoMarket.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/oguz/projects/MyCryptoMarket/MyCryptoMarket.csproj",
+        "projectName": "MyCryptoMarket",
+        "projectPath": "/home/oguz/projects/MyCryptoMarket/MyCryptoMarket.csproj",
+        "packagesPath": "/home/oguz/.nuget/packages/",
+        "outputPath": "/home/oguz/projects/MyCryptoMarket/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/oguz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Binance.Net": {
+              "target": "Package",
+              "version": "[7.2.5, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.19, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.19, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.19, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.19, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.1.19, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.413/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
